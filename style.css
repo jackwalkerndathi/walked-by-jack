@@ -1,0 +1,398 @@
+/* Main website design */
+body {
+    background-color: #111111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 60px;
+}
+
+/* Main heading */
+h1 {
+    color: #D4AF37;
+    font-size: 42px;
+}
+
+/* Paragraph */
+p {
+    color: #cccccc;
+    font-size: 18px;
+}
+
+/* Contact button */
+button {
+    background-color: #D4AF37;
+    color: #111111;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #D4AF37;
+    margin-bottom: 60px;
+}
+
+/* Agency logo */
+.logo {
+    color: #D4AF37;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Navigation links */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    color: #D4AF37;
+}/* Hero section */
+
+.hero {
+    padding: 60px 0;
+    max-width: 750px;
+}
+
+.intro {
+    color: #D4AF37;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 52px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #D4AF37;
+}
+
+.description {
+    color: #cccccc;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 600px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #D4AF37;
+    color: #111111;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}/* ABOUT SECTION */
+
+.about {
+    background-color: #0B0B18;
+    color: white;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+/* About heading */
+
+.about h2 {
+    color: #D4AF37;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Subheading */
+
+.about h3 {
+    color: #D4AF37;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Paragraphs */
+
+.about p {
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 15px auto;
+}/* Services Section */
+
+.services {
+    background-color: #080818;
+    color: white;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+/* Main heading */
+
+.services h2 {
+    color: #D4AF37;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Introduction */
+
+.services-intro {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Service container */
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* Individual service cards */
+
+.service-card {
+    background-color: #15152B;
+    border: 1px solid #D4AF37;
+    padding: 30px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+/* Service headings */
+
+.service-card h3 {
+    color: #D4AF37;
+    font-size: 20px;
+}
+
+/* Service descriptions */
+
+.service-card p {
+    color: white;
+    line-height: 1.7;
+    font-size: 14px;
+}/* PORTFOLIO SECTION */
+
+.portfolio {
+    background-color: #111111;
+    color: white;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.portfolio h2 {
+    color: #D4AF37;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.portfolio-intro {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #cccccc;
+}
+
+/* Portfolio layout */
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* Portfolio cards */
+
+.portfolio-card {
+    background-color: #15152B;
+    border: 1px solid #D4AF37;
+    border-radius: 10px;
+    width: 220px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+/* Project image placeholders */
+
+.portfolio-image {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Different project backgrounds */
+
+.restaurant {
+    background: linear-gradient(135deg, #52251C, #C17A36);
+}
+
+.hotel {
+    background: linear-gradient(135deg, #142D38, #477D83);
+}
+
+.property {
+    background: linear-gradient(135deg, #292929, #777777);
+}
+
+.automotive {
+    background: linear-gradient(135deg, #151515, #A17B25);
+}
+
+/* Portfolio text */
+
+.portfolio-card h3 {
+    color: #D4AF37;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.portfolio-card p {
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 1.6;
+}/* CONTACT SECTION */
+
+.contact {
+    background-color: #0B0B0B;
+    color: white;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #D4AF37;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-intro {
+    color: #cccccc;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* CONTACT CONTAINER */
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: left;
+}
+
+/* CONTACT INFORMATION */
+
+.contact-info,
+.contact-message {
+    flex: 1;
+}
+
+.contact-info h3,
+.contact-message h3 {
+    color: #D4AF37;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info p,
+.contact-message p {
+    color: #cccccc;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* CONTACT LINKS */
+
+.contact-info a {
+    color: #D4AF37;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* WHATSAPP BUTTON */
+
+.contact-button {
+    display: inline-block;
+    background-color: #D4AF37;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-button:hover {
+    background-color: white;
+}/* MOBILE RESPONSIVENESS */
+
+@media screen and (max-width: 768px) {
+
+    /* GENERAL SECTIONS */
+
+    section {
+        padding: 50px 6%;
+    }
+
+    /* NAVIGATION */
+
+    nav {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    /* PORTFOLIO */
+
+    .portfolio-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-card {
+        width: 100%;
+        max-width: 320px;
+        box-sizing: border-box;
+    }
+
+    /* CONTACT */
+
+    .contact-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-info,
+    .contact-message {
+        width: 100%;
+    }
+
+    /* HEADINGS */
+
+    h2 {
+        font-size: 26px;
+    }
+
+}
